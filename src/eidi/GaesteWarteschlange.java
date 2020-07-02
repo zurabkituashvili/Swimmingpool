@@ -2,10 +2,10 @@ package eidi;
 
 import java.util.*;
 
-public class WartendeRunnables {
+public class GaesteWarteschlange {
 	private List<Runnable> list;
 
-	public WartendeRunnables() {
+	public GaesteWarteschlange() {
 		this.list = new LinkedList<>();
 	}
 

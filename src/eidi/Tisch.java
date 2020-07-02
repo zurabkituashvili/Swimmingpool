@@ -2,10 +2,10 @@ package eidi;
 
 import java.util.*;
 
-public class SimpleThreadpoolThread extends Thread {
-	private WartendeRunnables tasks = null;
+public class Tisch extends Thread {
+	private GaesteWarteschlange tasks = null;
 
-	public SimpleThreadpoolThread(WartendeRunnables wr) {
+	public Tisch(GaesteWarteschlange wr) {
 		// TODO
 	}
 
