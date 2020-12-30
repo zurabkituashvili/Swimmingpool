@@ -2,10 +2,10 @@ package eidi;
 
 import java.util.*;
 
-public class Tisch extends Thread {
-	private GaesteWarteschlange tasks = null;
+public class Table extends Thread {
+	private GuestWaitingQueue tasks = null;
 
-	public Tisch(GaesteWarteschlange wr) {
+	public Table(GuestWaitingQueue wr) {
 		// TODO
 	}
 
@@ -18,7 +18,7 @@ public class Tisch extends Thread {
 	}
 
 
-	// event. Hilfsmethoden
+	// perhaps aux. methods 
 
 
 

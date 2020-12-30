@@ -3,16 +3,15 @@ package eidi;
 import java.util.*;
 
 public class Restaurant {
-	private GaesteWarteschlange tasks = null;
-	private List<Tisch> threads = new ArrayList<>();
-
-
+	private GuestWaitingQueue tasks = null;
+	private Table[] threads = null;
+	// private List<Table> threads = new ArrayList<>();
 
 	public Restaurant(int threadCount){
         // TODO
 	}
 
-	public synchronized void  essen(Runnable task) throws Exception {
+	public synchronized void  reserve(Runnable task) throws Exception {
         // TODO
 	}
 
