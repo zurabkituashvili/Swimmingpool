@@ -1,17 +1,4 @@
-<jhi-programming-exercise-instructions _ngcontent-bcw-c242="" _nghost-bcw-c210=""><div _ngcontent-bcw-c210="" class="instructions__content border-0 ng-star-inserted">
-    <jhi-programming-exercise-instructions-step-wizard _ngcontent-bcw-c210="" _nghost-bcw-c209=""><div _ngcontent-bcw-c209="" class="card-second-header" hidden="">
-    <div _ngcontent-bcw-c209="" class="stepwizard">
-        <div _ngcontent-bcw-c209="" class="stepwizard-row">
-            <div _ngcontent-bcw-c209="" class="stepwizard-title">
-                Tasks:
-            </div>
-            <!---->
-        </div>
-    </div>
-</div>
-</jhi-programming-exercise-instructions-step-wizard>
-    
-    <div _ngcontent-bcw-c210="" id="programming-exercise-instructions-content" class="guided-tour instructions__content__markdown markdown-preview"><p><strong>Due to Covid-19, restaurants (if allowed to open) suffer restrictions in their capacities. This assignment realizes
+<p><strong>Due to Covid-19, restaurants (if allowed to open) suffer restrictions in their capacities. This assignment realizes
 a simulation of a restaurant with waiting guests.</strong></p>
 <h6 id="subtask1">Sub-task 1 </h6>
 <p>Implement a class <code>GuestWaitingQueue</code> which is thread-safe.
